@@ -51,7 +51,7 @@ int main(int argc , char *argv[])
         }
 
         //Reply to the client
-        message = "Hello Client, I have receive your connection.\n";
+        message = "Hello Client, I have receive your connection.\nYour IP address is 192.168.199.3";
         write(client_sock, message, strlen(message));
 
         puts ("Connection accepted from Client IP address 192.168.199.3");
